@@ -1,5 +1,5 @@
 {
-  "name": "WebScrapper",
+  "name": "WebScraper",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^5.5.0",
+    "qoa": "^0.2.0",
+    "signale": "^1.4.0"
+  }
 }
