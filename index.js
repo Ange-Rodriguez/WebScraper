@@ -25,7 +25,7 @@ prompt().then(async ({ url }) => {
 
 	await page.goto(url);
 	await page
-		.screenshot({ path: 'screenshots/example.png' })
+		.screenshot({ path: `screenshots/${Date.now()}.png` })
 		.then(() => {
 			signale.success('Operation successful');
 		});
